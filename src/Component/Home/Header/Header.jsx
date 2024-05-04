@@ -18,7 +18,7 @@ const Header = () => {
                </button>
     </>
     return (
-        <nav className='flex justify-between  px-11 py-6 items-center bg-[#262626]  text-white'>
+        <nav className='flex justify-between  px-11 py-5 items-center bg-[#1A1A1A]  text-white'>
             {/* logo */}
             <div className='flex items-center justify-center gap-2 text-2xl font-medium '>
               <img src={logo} alt="" />
