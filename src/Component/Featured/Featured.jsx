@@ -3,7 +3,7 @@ import featured2 from '../../assets/Image/featured/featured2.png';
 import featured3 from '../../assets/Image/featured/featured3.png';
 import { MdOutlineBedroomParent } from "react-icons/md";
 import { GiBathtub } from "react-icons/gi";
-import { FaBuilding } from "react-icons/fa";
+import { FaArrowCircleLeft, FaArrowCircleRight, FaBuilding } from "react-icons/fa";
 
 
 const Featured = () => {
@@ -11,7 +11,7 @@ const Featured = () => {
     <div className="p-24">
       <div>
         <div className="flex flex-col gap-3">
-        <h1 className="text-5xl font-medium">Featured Properties</h1>
+        <h1 className="text-4xl font-medium">Featured Properties</h1>
         <p className="text-[#999]">
           Discover our curated collection of premier properties. Each listing
           provides a sneak peek into extraordinary homes <br /> and investment
@@ -100,6 +100,11 @@ const Featured = () => {
                 <button className='bg-[#703BF7] text-white font-medium px-2 py-1 rounded-xl transition-transform duration-500 transform hover:scale-105'>view property details</button>
            </div>
         </div>
+      </div>
+      <div className='flex gap-2 justify-center' >
+
+      <button><FaArrowCircleLeft className='h-6 w-6 ' /></button>
+      <button><FaArrowCircleRight className='h-6 w-6' /></button>
       </div>
     </div>
   );
