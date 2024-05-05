@@ -1,16 +1,16 @@
 import bannerImg from '../../assets/Image/banner/bannerImg.png';
-import subContainer from '../../assets/Image/banner/subContainer.png'
+
 
 const Banner = () => {
     return (
-        <div className='flex'>
+        <div className='flex gap-3 object-fill'>
             {/* banner content start here */}
-            <div className='flex flex-col py-24 ps-28'>
+            <div className='flex flex-col py-24 ps-28 '>
               <h1 className='text-6xl font-semibold mb-6'>Discover Your Dream <br /> Property with Estateins</h1>
               <p className='text-base text-[#999]'>Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.</p>
               <div className='text-white flex gap-5 my-14'>
-                <button className='bg-black  px-[18px] py-4  rounded-xl'>Learn More</button>
-                <button className='bg-[#703BF7] px-6 py-4 rounded-xl'>Browse Properties</button>
+                <button className='bg-black  px-[18px] py-4  rounded-xl transition-transform duration-500 transform hover:scale-105'>Learn More</button>
+                <button className='bg-[#703BF7] px-6 py-4 rounded-xl transition-transform duration-500 transform hover:scale-105'>Browse Properties</button>
               </div>
               <div className='flex text-white gap-5'>
                  <div className='bg-[#1A1A1A] px-6 py-4 rounded-xl'>
@@ -29,8 +29,8 @@ const Banner = () => {
             </div>
             {/* banner image start here */}
             <div className=''>
-                       <img className='absolute top-52 right-50' src={subContainer} alt="" />
-                       <img className='h-screen object-cover' src={bannerImg} alt="" />
+                       
+                       <img className='min-h-screen object-cover rounded-bl-lg' src={bannerImg} alt="" />
             </div>
         </div>
     );
