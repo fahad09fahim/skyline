@@ -25,7 +25,7 @@ const Header = () => {
               <h3>Skyline</h3>
             </div>
             {/* nav list */}
-            <div className={`absolute md:hidden md:min-h-fit bg-[#262626] min-h-[40vh] left-0 top-[11%]  w-full md:w-auto flex items-center px-5 justify-center ${isOpen ? 'block' : 'hidden'}`}>
+            <div className={`absolute z-10 md:hidden md:min-h-fit bg-[#262626] min-h-[40vh] left-0 top-[10%]   w-full md:w-auto flex items-center px-5 justify-center ${isOpen ? 'block' : 'hidden'}`}>
              <ul className='flex flex-col md:flex-row items-center justify-center md:gap-[5vw] gap-8 '>
                 {navList}
              </ul>

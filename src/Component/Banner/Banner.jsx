@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <div className='flex gap-3 object-fill'>
             {/* banner content start here */}
-            <div className='flex flex-col py-24 ps-28 '>
+            <div className='flex flex-col py-20 ps-28 min-h-screen '>
               <h1 className='text-6xl font-semibold mb-6'>Discover Your Dream <br /> Property with Estateins</h1>
               <p className='text-base text-[#999]'>Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.</p>
               <div className='text-white flex gap-5 my-14'>
@@ -28,9 +28,9 @@ const Banner = () => {
               </div>
             </div>
             {/* banner image start here */}
-            <div className=''>
+            <div className='py-[87px] px-3'>
                        
-                       <img className='min-h-screen object-cover rounded-bl-lg' src={bannerImg} alt="" />
+                       <img className='max-h-min  rounded-lg' src={bannerImg} alt="" />
             </div>
         </div>
     );
