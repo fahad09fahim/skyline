@@ -2,7 +2,7 @@ import bannerImg from '../../assets/Image/banner/bannerImg.png'
 
 const Banner2 = () => {
     return (
-        <div className="hero  min-h-screen  mb-2" style={{backgroundImage: `url(${bannerImg})`}}>
+        <div className="hero  min-h-screen  mb-2 bg-fixed" style={{backgroundImage: `url(${bannerImg})`}}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="max-w-md">
